@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e823e10d6ceb601428c3ea6d19e1f139, type: 3}
+  m_Name: GameDesignSO
+  m_EditorClassIdentifier: 
+  GeneralConfig:
+    PlanetCount: 9
+    prefabs:
+    - prefabType: 1
+      prefab: {fileID: 1080244410604157239, guid: 368c7b958afaee34caa5e1b9338e5e65, type: 3}
+  PlanetsConfig:
+    Planets:
+    - _id: 0
+      _name: Mercury
+      _incomeTimer: 5
+      _iconId: 0
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 10
+        _population: 120
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 30
+        _population: 570
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 90
+        _population: 3000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 270
+        _population: 9200
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 850
+        _population: 29000
+    - _id: 1
+      _name: Venus
+      _incomeTimer: 2
+      _iconId: 1
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 3
+        _population: 600
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 8
+        _population: 2000
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 23
+        _population: 5000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 53
+        _population: 12000
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 215
+        _population: 62344
+    - _id: 2
+      _name: Earth
+      _incomeTimer: 9
+      _iconId: 2
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 10
+        _population: 120
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 30
+        _population: 570
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 90
+        _population: 3000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 270
+        _population: 9200
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 850
+        _population: 29000
+    - _id: 3
+      _name: Leo
+      _incomeTimer: 5
+      _iconId: 3
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 10
+        _population: 120
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 30
+        _population: 570
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 90
+        _population: 3000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 270
+        _population: 9200
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 850
+        _population: 29000
+    - _id: 4
+      _name: Satu
+      _incomeTimer: 6
+      _iconId: 4
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 10
+        _population: 120
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 30
+        _population: 570
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 90
+        _population: 3000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 270
+        _population: 9200
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 850
+        _population: 29000
+    - _id: 5
+      _name: Yupi
+      _incomeTimer: 5
+      _iconId: 5
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 10
+        _population: 120
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 30
+        _population: 570
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 90
+        _population: 3000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 270
+        _population: 9200
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 850
+        _population: 29000
+    - _id: 6
+      _name: Teo
+      _incomeTimer: 4
+      _iconId: 6
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 10
+        _population: 120
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 30
+        _population: 570
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 90
+        _population: 3000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 270
+        _population: 9200
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 850
+        _population: 29000
+    - _id: 7
+      _name: Mew
+      _incomeTimer: 3
+      _iconId: 7
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 10
+        _population: 120
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 30
+        _population: 570
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 90
+        _population: 3000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 270
+        _population: 9200
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 850
+        _population: 29000
+    - _id: 8
+      _name: Boom
+      _incomeTimer: 2
+      _iconId: 8
+      _stages:
+      - _price:
+          Id: softCurrency
+          Count: 0
+        _incomeAmount: 0
+        _population: 0
+      - _price:
+          Id: softCurrency
+          Count: 50
+        _incomeAmount: 10
+        _population: 120
+      - _price:
+          Id: softCurrency
+          Count: 150
+        _incomeAmount: 30
+        _population: 570
+      - _price:
+          Id: softCurrency
+          Count: 450
+        _incomeAmount: 90
+        _population: 3000
+      - _price:
+          Id: softCurrency
+          Count: 1350
+        _incomeAmount: 270
+        _population: 9200
+      - _price:
+          Id: softCurrency
+          Count: 4200
+        _incomeAmount: 850
+        _population: 29000
