@@ -1,5 +1,6 @@
 # Idle Игра на Unity
 
+![Gameplay](https://github.com/user-attachments/assets/3001bb78-d95d-49b7-91b4-9a210440a979)
 
 ## Описание
 Это простой пример Idle игры с адаптивной версткой, разработанный на C# с использованием Unity.
