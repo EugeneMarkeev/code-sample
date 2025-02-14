@@ -10,8 +10,8 @@
 - **MVVP/MVP**
 
 ## Используемые плагины
-1. **VContainer**
-2. **UniTask**
+- **VContainer**
+- **UniTask**
 
 ## Запуск
 1. Откройте сцену **Init** в папке `Game/Scenes`.
@@ -26,6 +26,6 @@
 **Game → Save → Clear saves**
 
 ## Какие плагины не использовались, но могли бы
-1. **UniRx/R3**
-2. **DoTween**
-3. **Odin**
+- **UniRx/R3**
+- **DoTween**
+- **Odin**
